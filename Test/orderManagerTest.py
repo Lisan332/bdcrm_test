@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 # 需要#22783 添加从uuapTest拿到认证（从外部的passport迁移到uuap）
 data = {
     'username': 'uuapTest',
-    'password': 'Baidu@123'
+    'password': 'Baidu@uuapTest'
 }
 url = "http://uat.uuap.baidu.com/behavior/needBehaviorVerify"
 try:
